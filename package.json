@@ -1,0 +1,23 @@
+{
+  "name": "template-ts-module",
+  "version": "0.0.1",
+  "description": "",
+  "main": "dist/commonjs/main-commonjs.js",
+  "module": "dist/es6/main-es6.js",
+  "scripts": {
+    "build": "tsc -p ./tsconfig-commonjs.json && tsc -p ./tsconfig-es6.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kxmatejka/template-ts-module.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kxmatejka/template-ts-module/issues"
+  },
+  "homepage": "https://github.com/kxmatejka/template-ts-module#readme",
+  "devDependencies": {
+    "typescript": "^3.8.3"
+  }
+}
