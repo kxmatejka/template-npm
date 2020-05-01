@@ -1,17 +1,11 @@
 {
+  "extends": "./tsconfig",
   "compilerOptions": {
-    "target": "es5",
     "module": "es6",
-    "declaration": true,
-    "outDir": "./dist/es6",
-    "strict": true
+    "outDir": "./dist/es6"
   },
   "include": [
     "main-es6.ts",
     "src"
-  ],
-  "exclude": [
-    "node_modules",
-    "**/__tests__/*"
   ]
 }
